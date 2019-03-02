@@ -1,0 +1,60 @@
+.background-hero {
+    width: 100%;
+    background-image: url(../01.jpg) !important;
+    background-color: rgba(0, 0, 0, 0.699) !important;
+    background-size: cover;
+    text-align: center;
+}
+.header-hero {
+    height: 75vh;
+    width: 100%;
+    background-image: url(../shaders-bg.jpg) !important;
+    background-color: rgba(0, 0, 0, 0.699) !important;
+    background-size: cover;
+    text-align: center;
+}
+.card-img-overlay {
+    background-color:rgba(0, 0, 0, 0.4) !important
+}
+.card {
+    background-color: #313e44;
+}
+.scrim {
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(50, 50, 50, 0.5) 0%, rgba(80, 80, 80, 0.486) );
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+..main-top .main-top-col {
+    width: 28.8%;
+    padding: 0 7.5px;
+    margin-bottom: 13px;
+}
+
+.main-top-content{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.13);
+    color: rgba(38,38,38,.75);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 13px 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    min-height: 42px;
+    height: 100%;
+    font-weight: bolder;
+}
